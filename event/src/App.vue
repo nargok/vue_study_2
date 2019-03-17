@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld title="イベント修飾子: イベントは上から下へ伝播する"/>
+    <HelloWorld title="キーイベント: Escを押すとテキストをクリアするよ"/>
   </div>
 </template>
 
