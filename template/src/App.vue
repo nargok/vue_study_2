@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <HelloWorld title="slot">
-      <p class="inner">***this is default text***</p>
+      <p class="etc">Begin!</p>
+      <p class="inner" slot="a">***First message***</p>
+      <p class="etc">Middle...</p>
+      <p class="inner" slot="b">***Second message***</p>
+      <p class="etc">End.</p>
+      <p class="inner" slot="c">***Third message***</p>
     </HelloWorld>
   </div>
 </template>
