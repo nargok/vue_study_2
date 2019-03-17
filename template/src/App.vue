@@ -8,7 +8,8 @@
       <!--<p class="etc">End.</p>-->
       <!--<p class="inner" slot="c">***Third message***</p>-->
     <!--</HelloWorld>-->
-    <Render />
+    <Render title="JSX?">
+    </Render>
   </div>
 </template>
 
