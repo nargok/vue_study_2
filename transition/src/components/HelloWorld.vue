@@ -39,4 +39,26 @@ export default {
   padding: 10px;
   font-size: 20pt;
 }
+
+v-enter-active {
+  transition: opacity 0.5s;
+}
+
+.transit-enter-active, .transit-leave-active {
+  transition: opacity .5s;
+}
+
+.transit-enter-active {
+  transition: all .3s ease;
+}
+.transit-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.transit-enter, .transit-leave-to
+  /* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+
 </style>
